@@ -1,5 +1,5 @@
 import React from "react";
-import topografia1 from "../assets/topografia1.jpg";
+
 import dron1 from "../assets/drones1.jpg";
 
 export function Topografia1() {

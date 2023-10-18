@@ -2,6 +2,7 @@ import React from "react";
 import red1 from "../assets/televisiva12.jpg";
 import red2 from "../assets/dron3.jpg";
 import red3 from "../assets/ambiental3.jpg";
+import { Link } from "react-router-dom";
 export function Destacados() {
   return (
     <div>
@@ -10,7 +11,7 @@ export function Destacados() {
       </div>
       <div className="card-group">
         <div className="card">
-          <a href="/tele">
+          <a as={Link} to="/react/tele">
             <img src={red1} alt="Tarjeta 1" className="card-image" />
             <div className="card-content">
               <h3 className="card-titlem">INSPECCION TELEVISIVA</h3>
@@ -26,7 +27,7 @@ export function Destacados() {
         </div>
 
         <div className="card">
-        <a href="/ambiental">
+        <a as={Link} to="/react/ambiental">
           <img src={red3} alt="Tarjeta 2" className="card-image" />
           <div className="card-content">
             
@@ -42,7 +43,7 @@ export function Destacados() {
         </div>
 
         <div className="card">
-          <a href="/topografia">
+          <a as={Link} to="/react/topografia">
             <img src={red2} alt="Tarjeta 3" className="card-image" />
 
             <div className="card-content">

@@ -1,5 +1,5 @@
 // import Container from "react-bootstrap/esm/Container"
-import { Container, Row, Col } from "react-bootstrap";
+import {  Row, Col } from "react-bootstrap";
 import "animate.css";
 import logo1 from "../assets/ineg.jpg";
 

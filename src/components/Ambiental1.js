@@ -2,8 +2,7 @@ import React from "react";
 import "../css/Ambiental1.css";
 import ambiental1 from "../assets/ambiental1.jpg";
 import ambiental2 from "../assets/ambiental2.jpg";
-import ambiental3 from "../assets/ambiental3.jpg";
-import ambiental4 from "../assets/ambiental4.jpg";
+
 export function Ambiental1() {
   return (
     <div>

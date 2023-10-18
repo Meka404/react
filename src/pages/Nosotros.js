@@ -4,7 +4,7 @@ import { Uss } from "../components/Uss";
 import { Empresas } from "../components/Empresas";
 import "../css/Empresas.css";
 import "../css/Us.css";
-import { Usss } from "../components/Usss";
+
 import "../css/Usss.css";
 import "../css/Footer.css";
 import { Footer } from "../components/Footer";

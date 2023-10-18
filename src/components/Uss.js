@@ -1,15 +1,6 @@
 import React, { useState } from "react";
 import "../css/Uss.css";
-import televisiva1 from "../assets/televisiva1.jpg";
-import televisiva2 from "../assets/televisiva2.jpg";
-import televisiva3 from "../assets/televisiva3.jpg";
-import balde1 from "../assets/balde-arrastre.jpg";
-import agua from "../assets/agua.jpg";
-import robert from "../assets/robert.jpg";
-import foto7 from "../assets/foto7.jpg";
-import foto8 from "../assets/foto8.jpg";
-import foto9 from "../assets/foto9.jpg";
-import { Container } from "react-bootstrap";
+
 export const Uss = () => {
   const [activeFilter, setActiveFilter] = useState("all");
 
