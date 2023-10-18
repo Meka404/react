@@ -1,0 +1,69 @@
+.cardp-grid {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Divide en 3 columnas */
+  grid-gap: 20px; /* Espacio entre tarjetas */
+  margin-bottom: 5%;
+}
+
+.cardp {
+  /*background-color: #043a10;*/
+  background: linear-gradient(to right,  #006489, #5aa0b9);
+ /* background: linear-gradient(to right,  #006489, #5aa0b9);
+*/
+  margin-left: 10%;
+  margin-right: 10%;
+
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out; /* Transición de movimiento */
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+
+.cardp img{
+ 
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: auto; /* Establece la altura automática para mantener la proporción */
+    max-width: 300px; /* Establece un ancho máximo para evitar que las imágenes sean demasiado grandes */
+    max-height: 200px; 
+  
+}
+.cardp  p {
+  margin-top: 10px;
+}
+.cardp:hover {
+  transform: translateY(-5px); /* Mover hacia arriba al pasar el cursor */
+}
+
+/*__________________________________________*/
+
+
+.cardp {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.cardp .text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.cardp:hover .text-overlay {
+  opacity: 1;
+}
+
