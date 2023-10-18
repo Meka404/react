@@ -18,14 +18,14 @@ function App() {
     <Navigation></Navigation>
     <Navigation2></Navigation2>
       <Routes>
-        <Route path="/balde" element={<Balde/>}/>
-        <Route path="/tele" element={<Tele/>}/>
-        <Route path="/" element={<Principal/>}/>
-        <Route path="/ambiental" element={<Ambiental/>}/>
-        <Route path="/topografia" element={<Topografia/>}/>
-        <Route path="/ubicanos" element={<Ubicanos/>}/>
-        <Route path="/nosotros" element={<Nosotros/>}/>
-        <Route path="/proyectos" element={<Proyectos/>}/>
+        <Route path="/react/balde" element={<Balde/>}/>
+        <Route path="/react/tele" element={<Tele/>}/>
+        <Route path="/react" element={<Principal/>}/>
+        <Route path="/react/ambiental" element={<Ambiental/>}/>
+        <Route path="/react/topografia" element={<Topografia/>}/>
+        <Route path="/react/ubicanos" element={<Ubicanos/>}/>
+        <Route path="/react/nosotros" element={<Nosotros/>}/>
+        <Route path="/react/proyectos" element={<Proyectos/>}/>
       </Routes>
     </BrowserRouter>
   )
