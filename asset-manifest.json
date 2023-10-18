@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react/static/css/main.fe515ec0.css",
-    "main.js": "/react/static/js/main.42b2b728.js",
+    "main.js": "/react/static/js/main.6cc669e3.js",
     "static/js/787.c83b91c0.chunk.js": "/react/static/js/787.c83b91c0.chunk.js",
     "static/media/foto8.jpg": "/react/static/media/foto8.ba3e7b558badc1cf0429.jpg",
     "static/media/saneamiento1.jpg": "/react/static/media/saneamiento1.17630f3211f4a7611691.jpg",
@@ -23,10 +23,8 @@
     "static/media/televisiva12.jpg": "/react/static/media/televisiva12.c351db44566312ae9e2c.jpg",
     "static/media/topografia1.jpg": "/react/static/media/topografia1.b99b4e91fea363d1db7a.jpg",
     "static/media/dnc.jpg": "/react/static/media/dnc.bf113dd4e9ac1c07f77c.jpg",
-    "static/media/robert.jpg": "/react/static/media/robert.518e8132d65b7d8bf3cf.jpg",
     "static/media/drones1.jpg": "/react/static/media/drones1.18a5f730177d69c8fbc0.jpg",
     "static/media/ambiental3.jpg": "/react/static/media/ambiental3.66f3369990e4570e79c9.jpg",
-    "static/media/ambiental4.jpg": "/react/static/media/ambiental4.59d9fac4e54623091ba4.jpg",
     "static/media/topografia-geodesia-dnc.jpg": "/react/static/media/topografia-geodesia-dnc.4763e5cb6f0e13819b5e.jpg",
     "static/media/televisiva4.jpg": "/react/static/media/televisiva4.9416793fafb6a719e84c.jpg",
     "static/media/carro.jpg": "/react/static/media/carro.947d412733fa010e9a5d.jpg",
@@ -34,11 +32,11 @@
     "static/media/ineg.jpg": "/react/static/media/ineg.d3b496389b9596d373fb.jpg",
     "index.html": "/react/index.html",
     "main.fe515ec0.css.map": "/react/static/css/main.fe515ec0.css.map",
-    "main.42b2b728.js.map": "/react/static/js/main.42b2b728.js.map",
+    "main.6cc669e3.js.map": "/react/static/js/main.6cc669e3.js.map",
     "787.c83b91c0.chunk.js.map": "/react/static/js/787.c83b91c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe515ec0.css",
-    "static/js/main.42b2b728.js"
+    "static/js/main.6cc669e3.js"
   ]
 }
